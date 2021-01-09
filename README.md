@@ -1,5 +1,6 @@
 # BlueNovaBatteryMonitor
 This small utility opens a websocket connection to BlueNova LiFeYPO4 batteries which supports a web interface on port 9000. It parses the console output stream and logs the results in a PostgeSQL database. From there it can be graphed/monitored with tools like Grafana
+![Sample Grafana dashboard for two batteries](GrafanaDash.jpg)
 
 ## Compiling and installation
 The code was tested on FreeBSD  but should compile on most Unix-like systems.
